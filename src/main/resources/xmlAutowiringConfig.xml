@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.autowiringxml.Phone" name="phone">
+        <property name="name" value="OPPO RENO2-F"></property>
+        <property name="price" value="18500/-"/>
+    </bean>
+
+    <bean class="com.autowiringxml.Phone" name="phone2">
+        <property name="name" value="Iphone 15 PRO-MAX"></property>
+        <property name="price" value="13000/-"/>
+    </bean>
+
+
+<!--    <bean class="com.autowiringxml.User" name="user1" autowire="byName">-->
+<!--        <property name="name" value="Rishikesh Shinde"/>-->
+<!--    </bean>-->
+
+<!--    <bean class="com.autowiringxml.User" name="user1" autowire="byType">-->
+<!--        <property name="name" value="Rishikesh Shinde"/>-->
+<!--    </bean>-->
+
+<!--    <bean class="com.autowiringxml.User" name="user1" autowire="constructor">-->
+<!--        <property name="name" value="Rishikesh Shinde"/>-->
+<!--    </bean>-->
+
+
+</beans>

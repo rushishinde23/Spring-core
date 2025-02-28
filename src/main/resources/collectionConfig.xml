@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.pojo.Employee" name="employee1">
+        <property name="employeeName">
+            <value>Rahul</value>
+        </property>
+
+        <property name="phoneNumbers">
+            <list>
+                <value>886655444</value>
+                <value>785432123</value>
+                <value>985432123</value>
+            </list>
+        </property>
+
+        <property name="addresses">
+           <set>
+               <value>Pune</value>
+               <value>Mumbai</value>
+               <value>Nagpur</value>
+           </set>
+        </property>
+
+        <property name="courses">
+            <map>
+                <entry key="Java" value="2-Months"/>
+                <entry key="Python" value="3-Months"/>
+                <entry key="JavaScript" value="1-Months"/>
+            </map>
+        </property>
+    </bean>
+
+
+
+</beans>
